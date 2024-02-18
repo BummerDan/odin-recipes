@@ -4,16 +4,39 @@ h1 {
 
 body {
     background-color: rgb(28, 27, 29);
-  }
-
-ul  {
-    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ol  {
+ul li  {
     color: green;
+    font-size: 18px;
+    text-align: center;
+    list-style-position: inside;
+    margin-bottom: 15px;
 }
 
-.title {
+ol li  {
+    color: green;
+    font-size: 18px;
+    text-align: center;
+    list-style-position: inside;
+    margin-bottom: 15px;
+}
+
+.title,
+.desc,
+h1
+{
     color: red;
+    text-align: center
 }
+p {
+    text-align: center; 
+    color: green
+    ;
+}
+
+img {
+        display: block;
+        margin: auto 
+    }
